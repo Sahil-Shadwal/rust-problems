@@ -17,6 +17,24 @@ class Rect {
     const rect = new Rect(10, 20);
     console.log(rect.area());
 */
+
+//this in java
+/*
+class Rect {
+    int width;
+    int height;
+
+    Rect(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    int area() {
+        return this.width * this.height;
+    }
+}
+    System.out.println(new Rect(10, 20).area());
+*/
 impl Rect {
     fn area(&self) -> i32 {
         self.width * self.height
